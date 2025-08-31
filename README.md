@@ -1,13 +1,12 @@
 # Preface
 
-This repository is a **fork of a very useful PyTorch learning project for beginners**, with significant modifications:
+This repository is a **fork of a PyTorch learning project for beginners**, with significant modifications:
 
-- The original project was tailored for **Apple Silicon with Metal Performance Shaders (MPS)**.  
-  This fork instead focuses on **Linux/CUDA**, tested on **Ubuntu 24.04** with **NVIDIA GPU (16GB VRAM)**.  
+- The original project was tailored for **Apple Silicon with Metal Performance Shaders (MPS)**.   
+  This fork instead focuses on **Linux/CUDA**, tested on **Ubuntu 24.04** with CUDA 12.9 and **NVIDIA GPU (16GB VRAM)**.  
 - Includes **fixes for imports**, compatibility updates, and code adjustments for **current versions of PyTorch and dependencies**.
 - Notebooks with the suffix **`_MOD`** in their names are **refactored versions** of the originals with code improvements and updates.  
-- Serves as my **personal training project** for running and experimenting with transformer models in a CUDA environment.  
-- requirements.txt configured for CUDA 12.9
+- Serves as my **personal training project** for running and experimenting with transformer models in a CUDA environment.
 
 # Installation & Requirements
 
