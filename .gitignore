@@ -4,3 +4,4 @@
 *.ipynb_checkpoints
 /chapter3_TransformerInPytorch/dataset/input.txt
 /chapter2_HuggingFace/tokenizer.json
+*.pt
