@@ -1,0 +1,26 @@
+#
+--extra-index-url https://download.pytorch.org/whl/cu129
+torch==2.8.0+cu129
+#torchtext
+torchvision==0.20.0
+torchaudio==2.8.0
+
+# Hugging Face ecosystem
+transformers
+datasets
+tokenizers
+
+jupyter
+ipykernel
+tokenizers
+transformers
+datasets
+scikit-learn
+accelerate
+nltk
+xmltodict
+accelerate
+peft
+bitsandbytes
+sentencePiece
+

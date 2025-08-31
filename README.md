@@ -1,3 +1,66 @@
+# Preface
+
+This repository is a **fork of a very useful PyTorch learning project for beginners**, with significant modifications:
+
+- The original project was tailored for **Apple Silicon with Metal Performance Shaders (MPS)**.  
+  This fork instead focuses on **Linux/CUDA**, tested on **Ubuntu 24.04** with **NVIDIA GPU (16GB VRAM)**.  
+- Includes **fixes for imports**, compatibility updates, and code adjustments for **current versions of PyTorch and dependencies**.
+- Notebooks with the suffix **`_MOD`** in their names are **refactored versions** of the originals with code improvements and updates.  
+- Serves as my **personal training project** for running and experimenting with transformer models in a CUDA environment.  
+- requirements.txt configured for CUDA 12.9
+
+# Installation & Requirements
+
+A new `requirements.txt` file is included with the necessary dependencies.  
+To set up the environment:
+
+1. **Create a virtual environment** (you can specify Python version if needed):
+   ```bash
+   uv venv --seed
+   # or explicitly with Python 3.10
+   uv venv --seed -p 3.10
+   ```
+
+2. **Activate the environment**:
+   ```bash
+   source .venv/bin/activate
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Install Jupyter kernel**:
+   
+   ```bash
+   python -m ipykernel install --user --name=building_transformers --display-name="Models-with-PyTorch"
+   ```
+5. **Set Huggingface services token environment variable**: 
+   Register on Huggingface and set HF_TOKEN in ~/.bashrc 
+   
+   ```bash
+   export HF_TOKEN=hf_your_hf_token
+   #reload:
+   source ~/.bashrc
+   ```
+6. **Run Jupyter Notebook**:  
+   On a localhost, start the notebook, it will open project in browser:
+   ```bash
+   jupyter notebook
+   ```
+   On a remote machine, start the notebook server with:
+   ```bash
+   jupyter notebook --no-browser --ip=host
+   ```
+   If running on a host server, you can use:
+   ```bash
+   jupyter notebook --no-browser --ip=*
+   ```
+   or specify a particular IP address instead of `*`.
+
+---
+
 # Building Transformer Models with PyTorch 2.0
 
 Your key to transformer based NLP, vision, speech, and multimodalities
