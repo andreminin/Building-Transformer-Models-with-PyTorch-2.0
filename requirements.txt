@@ -6,6 +6,10 @@ torchvision
 torchaudio
 tensorboard
 
+matplotlib
+
+timm
+
 # Hugging Face ecosystem
 transformers
 datasets
