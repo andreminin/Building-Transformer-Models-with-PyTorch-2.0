@@ -2,12 +2,12 @@
 *.iml
 *.idea
 *.ipynb_checkpoints
-/chapter3_TransformerInPytorch/dataset/input.txt
-/chapter2_HuggingFace/tokenizer.json
 *.pt
-/chapter6_NLPTasks/dataset/**/*
+/chapter2_HuggingFace/tokenizer.json
+/chapter3_TransformerInPytorch/dataset/input.txt
+/chapter4_TransferLearning/*.csv
 /chapter5_CreateLLM/pretrained_bert/**/*
 /chapter5_CreateLLM/*.csv
-/chapter4_TransferLearning/*.csv
 /chapter6_NLPTasks/model/chatbot/*
-/chapter6_NLPTasks/dataset/MedQuAD/*
+/chapter6_NLPTasks/dataset/*
+
