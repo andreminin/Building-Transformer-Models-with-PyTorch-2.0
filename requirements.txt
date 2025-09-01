@@ -2,8 +2,9 @@
 --extra-index-url https://download.pytorch.org/whl/cu129
 torch==2.8.0+cu129
 #torchtext
-torchvision==0.20.0
-torchaudio==2.8.0
+torchvision
+torchaudio
+tensorboard
 
 # Hugging Face ecosystem
 transformers

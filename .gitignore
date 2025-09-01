@@ -9,3 +9,5 @@
 /chapter5_CreateLLM/pretrained_bert/**/*
 /chapter5_CreateLLM/*.csv
 /chapter4_TransferLearning/*.csv
+/chapter6_NLPTasks/model/chatbot/*
+/chapter6_NLPTasks/dataset/MedQuAD/*
