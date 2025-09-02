@@ -20,6 +20,7 @@ ipykernel
 tokenizers
 transformers
 datasets
+evaluate
 scikit-learn
 accelerate
 nltk
